@@ -1,18 +1,5 @@
 <head>
     <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
-    <script>
-      // Initialize Firebase
-      var config = {
-        apiKey: "AIzaSyCYKKh_KrbM67-Fs4UPqj0minBUJvmbZdA",
-        authDomain: "cs573experiment.firebaseapp.com",
-        databaseURL: "https://cs573experiment.firebaseio.com",
-        projectId: "cs573experiment",
-        storageBucket: "cs573experiment.appspot.com",
-        messagingSenderId: "296762835128"
-      };
-      firebase.initializeApp(config);
-    </script>
 
     <style type="text/css">
       .canvas cricle {
@@ -270,24 +257,6 @@
       trialData.push(row);
       console.log(trialData);
       document.getElementById("report_percent").value = "";
-  }
-
-  function saveToFirebase() {
-      var ref = firebase.database().ref();
-      var rootRef = ref.child('/');
-      trialData.forEach(function (row) {
-          var newRef = rootRef.push();
-          var elts = row.split(",");
-          console.log(elts);
-          newRef.set({
-              "trialNum": elts[0],
-              "visType": elts[1],
-              "truePercent": elts[2],
-              "reportPercent": elts[3],
-              "index_diff": elts[4]
-
-          });
-      });
   }
 
  
