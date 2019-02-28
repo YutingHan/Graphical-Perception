@@ -1,3 +1,13 @@
+![ggplot2](Show1.gif)
+
+# 
+
+![ggplot2](Show2.gif)
+
+
+
+
+
 Assignment 3 - Replicating a Classic Experiment  
 ===
 
