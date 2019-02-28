@@ -67,7 +67,7 @@ g.selectAll("circle")
          // .filter(function(d){return d>pie(1000000000);})
          .attr('transform', function(d, i){
       var x = arc.centroid(d)[0] * 1.5;
-      var y = arc.centroid(d)[1] * 1.5+1;
+      var y = arc.centroid(d)[1] * 1.5;
       return 'translate(' + x + ', ' + y + ')';
     })
           // .attr("transform", function(d) {
