@@ -64,7 +64,7 @@ function Piechart(canvas){
       console.log(ratio);
 
       truePercent = ratio;
-      index_diff = points[1]-points[0];
+      index_diff = Math.abs(points[1]-points[0]);
       numVis3--;
       trialNum++;
     }
