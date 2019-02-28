@@ -143,8 +143,8 @@
 
     </body>
 
-    <script src="./js/Piechart.js"></script>
-    <script src="./js/bubblechart.js"></script>
+    <script src="./js/Piechart6.js"></script>
+    <script src="./js/bubblechart1.js"></script>
     <script src="./js/linechart.js"></script>
 
     <script>
@@ -166,9 +166,10 @@
 
 
       //trackdata
-     var numVis1 = 2;
-     var numVis2 = 2;
-     var numVis3 = 2;
+     var total=6;
+     var numVis1 = total/3;
+     var numVis2 = total/3;
+     var numVis3 = total/3;
      var visType; //current vis type being displayed
      var trialNum = 1; //current trial number during experiment
      var truePercent = 1; //true percent of current vis
@@ -183,7 +184,7 @@
 
         document.getElementById("trialNum").innerHTML = trialNum;
         console.log(trialNum);
-        document.getElementById("totalTrials").innerHTML = 6;
+        document.getElementById("totalTrials").innerHTML = total;
         //initiate the first chart
         var appendResultFlag=false;
         firstTrial();
@@ -225,7 +226,16 @@
       
       if(numVis1 == 0 && numVis2 == 0 && numVis3 == 0){
           saveToFirebase();
-          alert("All Done! Thank You!")
+          alert("All Done! Thank You!");
+          svg.selectAll("*").remove();
+          svg.selectAll("text")
+           .data(trialData).enter().append("text")
+           .attr("x",20)
+           .attr("y",function(d,i){return i*20+20})
+           .attr("fill","white")
+           //.attr("text-anchor","middle")
+           .text(function(d){return d;});
+
       }
       else{
 
@@ -279,5 +289,8 @@
           });
       });
   }
+
+ 
+
 
     </script>
