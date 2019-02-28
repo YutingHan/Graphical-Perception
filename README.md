@@ -24,7 +24,12 @@ In this chart, we considered that participants may judge the radius of each bubb
 Pie Charts:
 ![PieChart.png](img/PieChart.png)
 
-Set the input should be among 0 to 1, otherwise shows an invail input alert, when finished whole test, show the work done.
+Show the experiment
+===
+Set the input should be among 0 to 1, when finished one image, click "Next" button to continue the experiment.
+Display the progress throughout the experiment for participants to check out.
+Display the introduction parts for participants to understand the experiment.
+For the experiment, make some alertings for the paticipants, if the input outside the setting range, shows an invail input alert, and when finished whole test, show the work done.
 ![ggplot2](Show1.gif)
 # 
 ![ggplot2](Show2.gif)
@@ -45,9 +50,7 @@ Technical Achievements
 Set the definite range of the random data for readability.
 Pick the theme of area to test during this replication of the seminal Cleveland Mcgill experiment.
 For differnet function generate differnet range of the data.
-Consider the length and angle affection during the experiment and avoid it.
-
-
+Consider the length and angle affection during the experiment and solve it.
 
 
 Design Achievements
