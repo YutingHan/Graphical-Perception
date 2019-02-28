@@ -31,10 +31,9 @@ Set the input should be among 0 to 1, otherwise shows an invail input alert, whe
 
 Hypotheses
 ===
-1.Participants will make more accurate measurements with the vertical bar chart than the horizontal bar chart.
-2.Participants will make more accurate measurements with the horizontal bar chart than the upside down bar chart.
-3.Participants will make the least accurate measurements with the upside down bar chart.
-4.Participants will make similarly accurate measurements with the horizontal bar chart and pie chart.
+1.Participants will make more accurate measurements with the Bubble Chart than the Stacked Area Chart.
+2.Participants will make similarly accurate measurements with the Bubble Chart and the Pie Chart.
+3.Participants will make the least accurate measurements with the Stacked Area Chart.
 
 
 Results
@@ -43,14 +42,21 @@ Results
 
 Technical Achievements
 ===
+Set the definite range of the random data for readability.
+Pick the theme of area to test during this replication of the seminal Cleveland Mcgill experiment.
+For differnet function generate differnet range of the data.
+Consider the length and angle affection during the experiment and avoid it.
+
+
 
 
 Design Achievements
 ===
+Display the progress throughout the survey to the participant.
+Notifying the participant of invalid input.
+alerting completion with a thank you message for the participant at the end of the experiment.
+Aesthetically pleasing design.
 
-
-Sources
-===
 
 
 
