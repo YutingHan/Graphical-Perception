@@ -180,7 +180,7 @@
     //checkInputValid
   function checkValid(){
       var num = document.getElementById("report_percent").value;
-      if(isNaN(num) || num < 0 || num > 1 || num.equals(""){
+      if(isNaN(num) || num < 0 || num > 1 || num.equals("")){
           document.getElementById("msg").innerHTML = "Invalid Input";
           alert("Invalid Input!")
       }
