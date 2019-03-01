@@ -80,7 +80,7 @@ To generate more samples with the exsited dataset, bootstrap is used.
 When estimating the unknown log errors, confidence interval provides the potential values and 95% CI is used.
 The result is consistent with the average log error.
 <p align="center">
-<img src="result/BSCI.png" height="60%" width="60%">
+<img src="result/BSCI.png" height="65%" width="65%">
 </p>
 
 
