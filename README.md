@@ -21,7 +21,7 @@ Three competing visualizations
 Three competing visualizations are built by d3 and generated with random datasets.
 When generating the random dataset, the lower and higher bounds are set to make sure the readability. 
 
-Stacked Area Charts
+Stacked Area Chart
 ------
 Stacked area chart is often used to compare multiple variables' changing over an interval and the area bewtween lines is an important quantitative variable presented.
 
@@ -32,14 +32,22 @@ To simulate the real data and reflect a trend, the middle point is set lower tha
 <img src="img/linechart.png" height="50%" width="50%">
 </p>
 
-Bubble Charts
+Bubble Chart
 -------
-In this chart, we considered that participants may judge the radius of each bubble, a.k.a length instead of the area, may violate our design purpose. So, for the two dots in the bubble we don't set them at the centorid position to avoid that.  
-![bubblechart.png](img/bubblechart.png)
+Bubble chart is a variation of a scatter chart and the areas of bubbles present one dimension of data.
 
-Pie Charts
+To eliminate the interference that participants may judge the radius of each bubble rather than the area, the two black dots are draw at at random position rather than the center.
+<p align="center">
+<img src="img/bubblechart.png" height="70%" width="70%">
+</p>
+
+
+Pie Chart
 ------
-![PieChart.png](img/PieChart.png)
+Pie chart is one of the most commonly used chart and the areas of slices illustrate numerical proportions.
+<p align="center">
+<img src="img/Piechart.png" height="60%" width="60%">
+</p>
 
 Show the experiment
 ===
