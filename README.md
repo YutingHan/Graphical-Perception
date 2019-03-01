@@ -101,25 +101,40 @@ Discussion
 Technical Achievements
 ===
 - Input textbox range limitation
+
    The textbox expects to receive a value ranging from 0 to 1. If not, an alert dialog box will pop up.
+   
 - Data type Transformation
+
    When analyzing data, .csv file are transformed into pandas.dataframe for a better implementation.
+   
 - Python functions construction
+
    Both bootstrap and confidence interval functions are written from scratch in python
+   
 - Seaborn
+
    Seaborn library is utilized to visualize result in python.
+   
 - Jupyter notebook
+
    When analyzing data, jupyter notebook is used to create code with results and visualizations.
 
 
 Design Achievements
 ===
 - Readability
+
    A lower bound and a higher bound of area dataset in each visualization are set to make sure the readability.
+   
 - Javascript functions
+
    Javascript functions are split into multiple files for easy implementation.
+   
 - Less is more
+
    Redundant line and borders are removed when drawing three competing charts.
+   
 
 Reference:
 -----
