@@ -106,7 +106,7 @@ Technical Achievements
    
 - Data type Transformation
 
-   When analyzing data, .csv file are transformed into pandas.dataframe for a better implementation.
+   When analyzing data, .csv files are transformed into a pandas.dataframe for a better implementation.
    
 - Python functions construction
 
@@ -114,7 +114,7 @@ Technical Achievements
    
 - Seaborn
 
-   Seaborn library is utilized to visualize result in python.
+   Seaborn library is utilized to visualize the result in python.
    
 - Jupyter notebook
 
