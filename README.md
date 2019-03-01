@@ -49,17 +49,19 @@ Pie chart is one of the most commonly used chart and the areas of slices illustr
 <img src="img/Piechart.png" height="60%" width="60%">
 </p>
 
-Show the experiment
+Experiment
 ===
-Set the input should be among 0 to 1, when finished one image, click "Next" button to continue the experiment.
-Display the progress throughout the experiment for participants to check out.
-Display the introduction parts for participants to understand the experiment.
-For the experiment, make some alertings for the paticipants, the below two gifs show that if the input outside the setting range, shows an invail input alert, and when finished whole test, show the work done. 
+Participants are asked to input the value that the smaller area over the larger area. The value ranges from 0 to 1 and the invalid value will be alerted.
+There are 20 trials per chart and these 60 trials are presented in a random order.
+Every time that the user clicks the "Next" button, the data will be stored and the next trial will appear.
+<p align="center">
+<img src="Show1.gif" height="100%" width="100%">
+</p>
 
-We also upload one example of the whole experiment video in the result file.
-![ggplot2](Show1.gif)
-# 
-![ggplot2](Show2.gif)
+When 60 trials finished, all data will be presented on the screen for the record.
+<p align="center">
+<img src="Show2.gif" height="100%" width="100%">
+</p>
 
 
 Hypotheses
