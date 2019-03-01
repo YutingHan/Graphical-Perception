@@ -112,8 +112,12 @@ Technical Achievements
 
 Design Achievements
 ===
-- A lower bound and a higher bound of area dataset in each visualization are set to make sure the readability.
-
+- Readability
+   A lower bound and a higher bound of area dataset in each visualization are set to make sure the readability.
+- Javascript functions
+   Javascript functions are split into multiple files for easy implementation.
+- Less is more
+   Redundant line and borders are removed when drawing three competing charts.
 
 Reference:
 -----
