@@ -4,10 +4,17 @@ Meijie Wang, Yuting Han, Zhiyi Huang
 -------
 
 
-The experiment itself can be seen at this locations: 
+Survey Link: 
 https://yutinghan.github.io/03-Experiment
 
-We decide to test human perception of graphic area during this replication of the seminal Cleveland Mcgill experiment, so choose these three different types of charts: Stacked Area Charts, Bubble Charts, and Pie Charts.Each participant was shown 20 variations of each type of chart, each with 10 randomly generated white regions, and two black dots randomly to compare the selected area.
+A controlled experiment to test human perception of graphic area is built following the style from Cleveland and McGill's 1984 paper closely. Three competing visualizations are chosen: Stacked Area Chart, Bubble Chart and Pie Chart. In each chart, 10 randomly generated white regions are presented and 2 of them indicated by black dots are randomly chosen for area comparison.
+
+This experiment is run with 20 trials per visualization type and is supported by 13 participants. To implement the performance, the error calculation function from Cleveland and McGill's 1984 paper is used.
+<p align="center">
+Error=log<sub>2</sub>( | judged percent - true percent | + 1/8 )
+</p>
+The average error and Bootstrapped 95% confidence intervals are analyzed.
+
 
 Functions
 ===
