@@ -55,12 +55,12 @@ Participants are asked to input the value that the smaller area over the larger 
 There are 20 trials per chart and these 60 trials are presented in a random order.
 Every time that the user clicks the "Next" button, the data will be stored and the next trial will appear.
 <p align="center">
-<img src="Show1.gif" height="100%" width="100%">
+<img src="img/Show1.gif" height="100%" width="100%">
 </p>
 
 When 60 trials finished, all data will be presented on the screen for the record.
 <p align="center">
-<img src="Show2.gif" height="100%" width="100%">
+<img src="img/Show2.gif" height="100%" width="100%">
 </p>
 
 
