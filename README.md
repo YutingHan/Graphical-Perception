@@ -86,9 +86,15 @@ The result is consistent with the average log error.
 
 Discussion 
 ------
-1). Pie Chart area for human perception may also affect by the angle.
-2). Due to the limit participants, time of participants paid in the experiment, the real results data may not consisitant exactly with previous work.
+<p align="center">
+<img src="img/table.png" height="60%" width="60%">
+</p>
 
+- Pie chart has the best performance with the lowest average log error in this experiment and people are more sensitve of the areas in it. However, this result may not be contributed by the sector shape since people may judge the area based on angles.
+
+- Bubble chart has a lower performance than pie chart. This result is consistent with Cleveland & McGill's result.
+
+- Stacked area chart has the lowest performance among three visualization and has the highest average log error. People are less sensitive to areas of irregular polygon, which may be the reason of this result.
 
 
 
