@@ -100,23 +100,22 @@ Discussion
 
 Technical Achievements
 ===
-Set the definite range of the random data for readability.
-Pick the theme of area to test during this replication of the seminal Cleveland Mcgill experiment.
-For differnet function generate differnet range of the data.
-Consider the length and angle affection during the experiment and solve it.
+- Input textbox range limitation
+   The textbox expects to receive a value ranging from 0 to 1. If not, an alert dialog box will pop up.
+- Data type Transformation
+   When analyzing data, .csv file are transformed into pandas.dataframe for a better implementation.
+- Seaborn
+   Seaborn library is utilized to visualize result in python.
+- Jupyter notebook
+   When analyzing data, jupyter notebook is used to create code with results and visualizations.
 
 
 Design Achievements
 ===
-Display the progress throughout the survey to the participant.
-Notifying the participant of invalid input.
-alerting completion with a thank you message for the participant at the end of the experiment.
-Aesthetically pleasing design.
+- A lower bound and a higher bound of area dataset in each visualization are set to make sure the readability.
 
 
-
-
-Sourcesfor Inspiration:
+Reference:
 -----
 - Cleveland, W. S., & McGill, R. (1984). Graphical perception: Theory, experimentation, and application to the development of graphical methods. Journal of the American statistical association, 79(387), 531-554.
 - Harrison, L., Skau, D., Franconeri, S., Lu, A., & Chang, R. (2013, April). Influencing visual judgment through affective priming. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (pp. 2949-2958). ACM.
