@@ -34,7 +34,9 @@ Show the experiment
 Set the input should be among 0 to 1, when finished one image, click "Next" button to continue the experiment.
 Display the progress throughout the experiment for participants to check out.
 Display the introduction parts for participants to understand the experiment.
-For the experiment, make some alertings for the paticipants, if the input outside the setting range, shows an invail input alert, and when finished whole test, show the work done. We also upload one example of the whole experiment video in the result file.
+For the experiment, make some alertings for the paticipants, the below two gifs show that if the input outside the setting range, shows an invail input alert, and when finished whole test, show the work done. 
+
+We also upload one example of the whole experiment video in the result file.
 ![ggplot2](Show1.gif)
 # 
 ![ggplot2](Show2.gif)
@@ -49,6 +51,11 @@ Hypotheses
 
 Results
 ===
+
+![AvgError.png](result/AvgError.png)
+#
+![BSCI.png](result/BSCI.png)
+
 
 
 Technical Achievements
