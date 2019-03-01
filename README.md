@@ -45,16 +45,31 @@ We also upload one example of the whole experiment video in the result file.
 Hypotheses
 ===
 1.Participants will make more accurate measurements with the Bubble Chart than the Stacked Area Chart.
-2.Participants will make similarly accurate measurements with the Bubble Chart and the Pie Chart.
+2.Participants will make more accurate measurements with the Pie Chart than the Bubble Chart.
 3.Participants will make the least accurate measurements with the Stacked Area Chart.
 
 
 Results
 ===
+1). With all the experiment data we got, we got the conclusion base on our data that among these three different types of charts, human perception of graphic area works with Pie Chart, Bubble Chart and Stacked Area Chart in the descending order.
+2). Among our hypotheses, all the three were confirmed. The results order of Pie chart, Bubble chart and Stacked Line Chart is same with the cleveland results below. 
+![cleveland results](img/cleveland-results.png)
+3). However, except the order, we find that the real error we caculated has a huge difference with the cleveland results. The AverageError we got of Pie chart and Bubble chart are about 0.5 larger than cleveland results. 
+4). Our experiment adhered to a between-subjects design. We excluded participants who incorrectly answered the story verification question, as well as those who either failed to answer or put the same answer for multiple questions. For example, the answer was 50% away from the correct answer and put all the 0.3 during the whole experiment.
+5). We also follow previous studies in using bootstrapping to calculate the mean confidence intervals for each chart and
+priming combination. The resulting confidence intervals are shown below.
 
 ![AvgError.png](result/AvgError.png)
 #
 ![BSCI.png](result/BSCI.png)
+Discussion 
+------
+
+
+
+
+
+
 
 
 
