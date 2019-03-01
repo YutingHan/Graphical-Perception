@@ -58,21 +58,18 @@ Results
 #
 3). However, except the order, we find that the real error we caculated has a huge difference with the cleveland results. The AverageError we got of Pie chart and Bubble chart are about 0.5 larger than cleveland results. 
 #
-4). Our experiment adhered to a between-subjects design. We excluded participants who incorrectly answered the story verification question, as well as those who either failed to answer or put the same answer for multiple questions. For example, the answer was 50% away from the correct answer and put all the 0.3 during the whole experiment.
-#
-5). We also follow previous studies in using bootstrapping to calculate the mean confidence intervals for each chart and
+4). We also follow previous studies in using bootstrapping to calculate the mean confidence intervals for each chart and
 priming combination. The resulting confidence intervals are shown below.
+#
+5). Our experiment adhered to a between-subjects design. We excluded participants who incorrectly answered the story verification question, as well as those who either failed to answer or put the same answer for multiple questions. For example, the answer was 50% away from the correct answer and put all the 0.3 during the whole experiment.
 
 ![AvgError.png](result/AvgError.png)
 #
 ![BSCI.png](result/BSCI.png)
 Discussion 
 ------
-
-
-
-
-
+1). Pie Chart area for human perception may also affect by the angle.
+2). Due to the limit participants, time of participants paid in the experiment, the real results data may not consisitant exactly with previous work.
 
 
 
