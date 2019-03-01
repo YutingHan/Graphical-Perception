@@ -66,21 +66,25 @@ When 60 trials finished, all data will be presented on the screen for the record
 
 Results
 ===
-1). With all the experiment data we got, we got the conclusion base on our data that among these three different types of charts, human perception of graphic area works with Pie Chart, Bubble Chart and Stacked Area Chart in the descending order.
-#
-2). Among our hypotheses, all the three were confirmed. The results order of Pie chart, Bubble chart and Stacked Line Chart is same with the cleveland results below. 
-![cleveland results](img/cleveland-results.png)
-#
-3). However, except the order, we find that the real error we caculated has a huge difference with the cleveland results. The AverageError we got of Pie chart and Bubble chart are about 0.5 larger than cleveland results. 
-#
+Average Error
+------
+Below is the average error visualization, ordered by best performance to worst performance.
+Pie chart has the lowest average error, following by Bubble chart and stacked area chart.
+<p align="center">
+<img src="result/AvgError.png" height="60%" width="60%">
+</p>
+
+Bootstrapped 95% Confidence Intervals
+------
+<p align="center">
+<img src="result/BSCI.png" height="60%" width="60%">
+</p>
+
 4). We also follow previous studies in using bootstrapping to calculate the mean confidence intervals for each chart and
 priming combination. The resulting confidence intervals are shown below.
 #
 5). Our experiment adhered to a between-subjects design. We excluded participants who incorrectly answered the story verification question, as well as those who either failed to answer or put the same answer for multiple questions. For example, the answer was 50% away from the correct answer and put all the 0.3 during the whole experiment.
 
-![AvgError.png](result/AvgError.png)
-#
-![BSCI.png](result/BSCI.png)
 Discussion 
 ------
 1). Pie Chart area for human perception may also affect by the angle.
