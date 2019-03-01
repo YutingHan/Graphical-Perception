@@ -104,6 +104,8 @@ Technical Achievements
    The textbox expects to receive a value ranging from 0 to 1. If not, an alert dialog box will pop up.
 - Data type Transformation
    When analyzing data, .csv file are transformed into pandas.dataframe for a better implementation.
+- Python functions construction
+   Both bootstrap and confidence interval functions are written from scratch in python
 - Seaborn
    Seaborn library is utilized to visualize result in python.
 - Jupyter notebook
