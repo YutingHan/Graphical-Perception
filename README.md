@@ -64,13 +64,6 @@ When 60 trials finished, all data will be presented on the screen for the record
 </p>
 
 
-Hypotheses
-===
-1.Participants will make more accurate measurements with the Bubble Chart than the Stacked Area Chart.
-2.Participants will make more accurate measurements with the Pie Chart than the Bubble Chart.
-3.Participants will make the least accurate measurements with the Stacked Area Chart.
-
-
 Results
 ===
 1). With all the experiment data we got, we got the conclusion base on our data that among these three different types of charts, human perception of graphic area works with Pie Chart, Bubble Chart and Stacked Area Chart in the descending order.
