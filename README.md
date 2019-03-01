@@ -68,7 +68,7 @@ Results
 ===
 Average Log Error
 ------
-Below is the average log error visualization, ordered by best performance to worst performance.
+Below is the average log error visualization, ordered by the best performance to the worst performance.
 Pie chart has the lowest average error, following by Bubble chart and stacked area chart.
 <p align="center">
 <img src="result/AvgError.png" height="60%" width="60%">
@@ -76,14 +76,13 @@ Pie chart has the lowest average error, following by Bubble chart and stacked ar
 
 Log Error Bootstrapped 95% Confidence Intervals
 ------
-To generate more sample with exsited dataset, bootstrap is used.
+To generate more samples with the exsited dataset, bootstrap is used.
 When estimating the unknown log errors, confidence interval provides the potential values and 95% CI is used.
 The result is consistent with the average log error.
 <p align="center">
 <img src="result/BSCI.png" height="60%" width="60%">
 </p>
 
-5). Our experiment adhered to a between-subjects design. We excluded participants who incorrectly answered the story verification question, as well as those who either failed to answer or put the same answer for multiple questions. For example, the answer was 50% away from the correct answer and put all the 0.3 during the whole experiment.
 
 Discussion 
 ------
