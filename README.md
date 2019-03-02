@@ -69,7 +69,7 @@ Results
 Average Log Error
 ------
 Below is the average log error visualization, ordered by the best performance to the worst performance.
-Pie chart has the lowest average error, following by Bubble chart and stacked area chart.
+Pie chart has the lowest average error, following by bubble chart and stacked area chart.
 <p align="center">
 <img src="result/AvgError.png" height="60%" width="60%">
 </p>
