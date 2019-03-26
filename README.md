@@ -1,4 +1,4 @@
-Assignment 3 - Replicating a Classic Experiment  
+Experimentation and Analytics - Graphical Perception
 ===
 Yuting Han, Meijie Wang, Zhiyi Huang
 -------
