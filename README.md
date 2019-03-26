@@ -1,6 +1,6 @@
 Assignment 3 - Replicating a Classic Experiment  
 ===
-Meijie Wang, Yuting Han, Zhiyi Huang
+Yuting Han, Meijie Wang, Zhiyi Huang
 -------
 
 
